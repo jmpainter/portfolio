@@ -85,6 +85,10 @@ h3 {
 	font-family: serif;
 	color: #813e36;
 }
+a {
+	text-decoration: none;
+	color: #000;
+}
 .inner {
  	margin: 0 auto;  
 	width: 67%;
@@ -135,7 +139,7 @@ h3 {
 	padding-top: 10rem;
 }
 .intro img {
-	border: 1px solid #444;
+	border: 1px solid #999;
 }
 .intro h1 {
 	font-size: 2.2rem;
@@ -147,6 +151,8 @@ h3 {
 .featured {
 	background-color: #b2dba9;
 	padding: 2rem 0;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
 }
 .featured h1 {
 	color: #813e36;
