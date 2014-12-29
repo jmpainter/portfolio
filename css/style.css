@@ -61,7 +61,7 @@ div {
 
 body {
     background-color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans', Verdana, sans-serif;
 	letter-spacing: 0.01em;	    
 	line-height: 1.5rem;
 	-webkit-font-smoothing: antialiased; 
@@ -80,7 +80,7 @@ h2 {
 }
 h3 {
 	font-size: 1.2rem;
-	margin: 1rem 0;
+	margin: 2.1rem 0 1rem;
 	font-weight: bold;
 	font-family: serif;
 	color: #813e36;
@@ -114,7 +114,7 @@ a {
 }
 #main-menu {
 	color: #000;
-	font-size: 14px;
+	font-size: 1em;
 	position: absolute;
 	right: 0;
 	top: 62px;
@@ -136,17 +136,19 @@ a {
 	background-size: cover;
 }
 .intro {
-	padding-top: 10rem;
+	padding-top: 14rem;
 }
 .intro img {
 	border: 1px solid #999;
 }
 .intro h1 {
 	font-size: 2.2rem;
+	font-weight: 700;
+	letter-spacing: -.04rem;
 }
 .questions {
 	clear: left;
-	padding-bottom: 2rem;
+	padding-bottom: 4rem;
 }
 .featured {
 	background-color: #b2dba9;
@@ -191,6 +193,9 @@ a {
 	height: 3.2rem;
 	line-height: 3rem;
 	margin: .5rem;
+	color: #35b1e3;
+}
+.main-footer .icons li a {
 	color: #35b1e3;
 }
 .main-footer .copy {
