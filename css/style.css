@@ -55,37 +55,57 @@ body {
     background-color: LightGray;
 }
 div {
-    border: 1px solid Chocolate;
+    /*border: 1px solid Chocolate;*/
 }
 /* end of temporary */
 
-html {
-	font-size: 62.5%;
-}
 body {
     background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 0.01em;	    
+	line-height: 1.5rem;
 	-webkit-font-smoothing: antialiased; 
 }
-
+p {
+	font-size: 1.1rem;
+}
+h1 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	line-height: 2.2rem;
+}
+h2 {
+	font-size: 1.3rem;
+	margin: 1.5rem 0;
+}
+h3 {
+	font-size: 1.2rem;
+	margin: 1rem 0;
+	font-weight: bold;
+	font-family: serif;
+	color: #813e36;
+}
 .inner {
  	margin: 0 auto;  
-	width: 60%;
+	width: 67%;
 }
 .right {
-	float: right;
-	width: 40rem;
+	margin-left: 137px;
+}
+.left {
+	float: left;
+	width: 137px;
+	padding-right: 20px;
+}
+#masthead {
+	margin-top: 15px;
 }
 #masthead .inner {
 	position: relative;
-	padding: 7px 0;
 }
 #masthead h1 {
-	display: block;
 	background: url(../images/jp_logo.png) no-repeat;
 	height: 80px;
-	width: 214px;
 	text-indent: -9999rem;
 }
 #main-menu {
@@ -93,7 +113,7 @@ body {
 	font-size: 14px;
 	position: absolute;
 	right: 0;
-	top: 68px;
+	top: 62px;
 }
 #main-menu li {
 	display: inline-block;
@@ -107,11 +127,67 @@ body {
 	text-decoration: underline;
 }
 #header-image {
-	background: url("../images/header_image.jpg") no-repeat left top;
+	background: url(../images/header_image.jpg) no-repeat left top;
 	height: 510px;
 	background-size: cover;
 }
-img .portrait {
-	float-left;
-	border: 1px solid #111;
+.intro {
+	padding-top: 10rem;
+}
+.intro img {
+	border: 1px solid #444;
+}
+.intro h1 {
+	font-size: 2.2rem;
+}
+.questions {
+	clear: left;
+	padding-bottom: 2rem;
+}
+.featured {
+	background-color: #b2dba9;
+	padding: 2rem 0;
+}
+.featured h1 {
+	color: #813e36;
+	font-family: serif;
+	font-size: 1.6rem;
+	padding-bottom: 1rem;
+}
+.featured .figure {
+	display: inline-block;
+	padding: 0 1rem;
+}
+.featured .figure p {
+	font-size: .95rem;
+}
+.featured .inner {
+	text-align: center;
+}
+.featured img {
+	box-shadow: 4px 4px 3px #888;
+	border: 1px solid #000;
+	margin-bottom: 1rem;
+}
+.main-footer {
+	padding: 2.5rem 0;
+	text-align: center;
+}
+.main-footer p {
+	font-size: .9rem;
+	color: #121212;
+}
+.main-footer .icons li {
+	display: inline-block;
+	border: 1px solid #ebeced;	
+	border-radius: 50%;
+	width: 3.2rem;
+	height: 3.2rem;
+	line-height: 3rem;
+	margin: .5rem;
+	color: #35b1e3;
+}
+.main-footer .copy {
+	color: #b1b5bc;
+	font-size: .8rem;
 }
