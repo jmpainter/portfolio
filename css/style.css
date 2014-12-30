@@ -71,8 +71,8 @@ p {
 }
 h1 {
 	font-size: 1.8rem;
-	margin-bottom: 1rem;
 	line-height: 2.2rem;
+	margin-bottom: 1rem;
 }
 h2 {
 	font-size: 1.3rem;
@@ -101,11 +101,9 @@ a {
 	width: 137px;
 	padding-right: 20px;
 }
-#masthead {
-	margin-top: 15px;
-}
 #masthead .inner {
 	position: relative;
+	padding: 20px 0;
 }
 #masthead h1 {
 	background: url(../images/jp_logo.png) no-repeat;
@@ -117,7 +115,7 @@ a {
 	font-size: 1em;
 	position: absolute;
 	right: 0;
-	top: 62px;
+	top: 85px;
 }
 #main-menu li {
 	display: inline-block;
