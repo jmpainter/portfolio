@@ -119,7 +119,7 @@ a {
 }
 #header-image {
 	background: url(../images/header_image.jpg) no-repeat left top;
-	height: 510px;
+	height: 600px;
 	background-size: cover;
 }
 .intro {
@@ -150,6 +150,9 @@ a {
 .featured h1 {
 	color: #813e36;
 	font-size: 1.4rem;
+	margin: 2.3rem 0 .2rem;
+	font-family: Georgia, serif;
+	font-weight: 700;
 }
 .featured .figure {
 	display: inline-block;
