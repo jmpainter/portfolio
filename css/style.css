@@ -76,13 +76,13 @@ h1 {
 }
 h2 {
 	font-size: 1.3rem;
-	margin: 1.5rem 0;
+	margin: 2rem 0;
 }
 h3 {
 	font-size: 1.2rem;
-	margin: 2.1rem 0 1rem;
+	margin: 2.3rem 0 1rem;
 	font-weight: bold;
-	font-family: serif;
+	font-family: Georgia, serif;
 	color: #813e36;
 }
 a {
@@ -91,19 +91,20 @@ a {
 }
 .inner {
  	margin: 0 auto;  
-	width: 67%;
+	width: 65%;
 }
 .right {
-	margin-left: 137px;
+	margin-left: 140px;
 }
 .left {
 	float: left;
-	width: 137px;
+	width: 140px;
 	padding-right: 20px;
 }
 #masthead .inner {
 	position: relative;
-	padding: 20px 0;
+	margin: 15px auto;
+	width: 75%;
 }
 #masthead h1 {
 	background: url(../images/jp_logo.png) no-repeat;
@@ -115,7 +116,7 @@ a {
 	font-size: 1em;
 	position: absolute;
 	right: 0;
-	top: 85px;
+	bottom: 0;
 }
 #main-menu li {
 	display: inline-block;
@@ -125,28 +126,29 @@ a {
 	text-decoration: none;
 	color: #111;
 }
-#main-menu li a:hover {
-	text-decoration: underline;
-}
 #header-image {
 	background: url(../images/header_image.jpg) no-repeat left top;
 	height: 510px;
 	background-size: cover;
 }
 .intro {
-	padding-top: 14rem;
+	padding-top: 9rem;
 }
 .intro img {
-	border: 1px solid #999;
+	border: 2px solid #444;
 }
 .intro h1 {
-	font-size: 2.2rem;
+	font-size: 2.1rem;
 	font-weight: 700;
 	letter-spacing: -.04rem;
 }
 .questions {
 	clear: left;
 	padding-bottom: 4rem;
+}
+.questions h2 {
+	margin-top: 3em;
+	margin-bottom: .3em;
 }
 .featured {
 	background-color: #b2dba9;
@@ -156,24 +158,23 @@ a {
 }
 .featured h1 {
 	color: #813e36;
-	font-family: serif;
-	font-size: 1.6rem;
-	padding-bottom: 1rem;
+	font-family: Georgia, serif;
+	font-size: 1.7rem;
 }
 .featured .figure {
 	display: inline-block;
-	padding: 0 1rem;
+	padding: 1.4rem 1.2rem;
 }
 .featured .figure p {
 	font-size: .95rem;
 }
 .featured .inner {
 	text-align: center;
+	width: 100%;
 }
 .featured img {
 	box-shadow: 4px 4px 3px #888;
 	border: 1px solid #000;
-	margin-bottom: 1rem;
 }
 .main-footer {
 	padding: 2.5rem 0;
