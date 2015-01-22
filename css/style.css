@@ -87,22 +87,32 @@ a {
 	width: 140px;
 	padding-right: 20px;
 }
-#masthead .inner {
-	position: relative;
-	margin: 15px auto;
-	width: 75%;
+#masthead {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 12;
+	background-color: #fff;
 }
-#masthead h1 {
-	background: url(../images/jp_logo.png) no-repeat;
-	height: 80px;
-	text-indent: -9999rem;
+#masthead .inner {
+	margin: 0 auto;
+	padding: 15px 0;
+	width: 75%;
+	height: 110px;
+	position: relative;
 }
 #main-menu {
 	color: #000;
 	font-size: 1em;
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	bottom: 10px;
+}
+#masthead h1 {
+	background: url(../images/jp_logo.png) no-repeat;
+	height: 80px;
+	text-indent: -9999rem;
 }
 #main-menu li {
 	display: inline-block;
@@ -112,6 +122,24 @@ a {
 	text-decoration: none;
 	color: #111;
 }
+#slideshow {
+	height: 600px;
+}
+#slideshow img {
+    position:absolute;
+    top:110px;
+    left:0;
+    z-index:8;
+    width: 100%;
+}
+#slideshow img.active {
+    z-index:10;
+}
+
+#slideshow img.last-active {
+    z-index:9;
+}
+
 #header-image {
 	background: url(../images/header_image.jpg) no-repeat left top;
 	height: 600px;
@@ -121,8 +149,13 @@ a {
 	margin: 0 auto;
 	width: 60%;
 }
-.intro {
+main {
 	padding-top: 9rem;
+	position: relative;
+	top: 110px;
+	border: 1px solid red;
+}
+.intro {
 }
 .intro img {
 	border: 2px solid #444;
@@ -156,10 +189,14 @@ a {
 }
 .featured .figure {
 	display: inline-block;
-	padding: 20px 20px 0;
+	padding: 30px 20px 0;
 	width: 315px;
 	text-align: left;
 	vertical-align: top;
+  	transition: transform 0.2s ease;	
+}
+.featured .figure:hover {
+  transform: scale(1.18);
 }
 .featured .figure p {
 	font-size: .95rem;
