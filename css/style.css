@@ -180,10 +180,10 @@ main {
 	border-bottom: 1px solid #999;
 	text-align: center;
 }
-.featured h1 {
+.featured h1, .contact h1{
 	color: #813e36;
 	font-size: 1.6rem;
-	margin: 2.3rem 0 .2rem;
+	margin: 3rem 0 .2rem;
 	font-family: Georgia, serif;
 	font-weight: 700;
 }
@@ -210,9 +210,45 @@ main {
 	box-shadow: 4px 4px 3px #888;
 	border: 1px solid #000;
 }
+#contact-area {
+	width: 600px;
+	margin: 5rem auto 7rem;
+}
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #d3d3d3;
+}
+#contact-area textarea {
+	height: 90px;
+}
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #35B1E3;
+}
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+	background-color: #35B1E3;
+	font-size: 1.3rem;
+}
+.contact h1 {
+	margin: 3rem 0 2rem;
+}
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.1em;
+}
 .main-footer {
 	padding: 2.5rem 0;
 	text-align: center;
+	border-top: 1px solid #d3d3d3;
 }
 .main-footer p {
 	font-size: .9rem;
