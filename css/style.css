@@ -174,7 +174,7 @@ main {
 	margin-bottom: .3em;
 }
 .featured {
-	background-color: #b2dba9;
+	background-color: #b4e5b0;
 	padding: 2rem 0;
 	border-top: 1px solid #999;
 	border-bottom: 1px solid #999;
@@ -183,7 +183,7 @@ main {
 .featured h1, .contact h1{
 	color: #813e36;
 	font-size: 1.6rem;
-	margin: 3rem 0 .2rem;
+	margin: 3rem 0 1.8rem;
 	font-family: Georgia, serif;
 	font-weight: 700;
 }
@@ -196,7 +196,7 @@ main {
   	transition: transform 0.2s ease;	
 }
 .featured .figure:hover {
-  transform: scale(1.18);
+	transform: scale(1.18);
 }
 .featured .figure p {
 	font-size: .95rem;
@@ -270,4 +270,10 @@ label {
 .main-footer .copy {
 	color: #b1b5bc;
 	font-size: .8rem;
+}
+a.anchor {
+	display: block;
+	position: relative;
+	top: -160px;
+	visibility: hidden;
 }
